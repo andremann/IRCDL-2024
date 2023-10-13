@@ -24,14 +24,14 @@ def main(input_filepath, output_filepath):
 
     dblp_path = os.path.join(input_filepath, 'ircdl_dblp.json')
     csv_path = os.path.join(output_filepath, 'ircdl_dblp.csv')
-    if not os.path.exists(dblp_path):
-        urlretrieve(DBLP, dblp_path)
+    # if not os.path.exists(dblp_path):
+    urlretrieve(DBLP, dblp_path)
 
     with open(dblp_path) as dblp_file, open(csv_path, 'w') as csv_file:
         dblp = json.load(dblp_file)
 
         writer = csv.writer(csv_file, delimiter=',', quotechar='"', quoting=csv.QUOTE_MINIMAL)
-        writer.writerow(['doi', 'url', 'ee', 'year', 'authors', 'title', 'pages', 'length', 'type', 'access'])
+        writer.writerow(['key', 'doi', 'url', 'ee', 'year', 'authors', 'title', 'venue', 'pages', 'length', 'type', 'access'])
         for hit in dblp['result']['hits']['hit']:
             paper = hit['info']
             
@@ -41,17 +41,19 @@ def main(input_filepath, output_filepath):
             else:
                 authors = []
 
+            key = paper['key'] if 'key' in paper else None
             doi = paper['doi'] if 'doi' in paper else None
             access = paper['access'] if 'access' in paper else None
             ee = paper['ee'] if 'ee' in paper else None
             range = paper['pages'] if 'pages' in paper else None
+            venue = paper['venue'] if 'venue' in paper else None
             if range is not None:
                 pages = range.split('-')
                 length = int(pages[1]) - int(pages[0])
             else:
                 length = None
             
-            writer.writerow([doi, paper['url'], ee, paper['year'], authors, paper['title'], range, length, paper['type'], access])
+            writer.writerow([key, doi, paper['url'], ee, paper['year'], authors, paper['title'], venue, range, length, paper['type'], access])
 
 
 if __name__ == '__main__':
