@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Searching 100M Images by Content Similarity</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName><forename type="first">Paolo</forename><surname>Bolettieri</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="institution">ISTI-CNR</orgName>
+								<address>
+									<settlement>Pisa</settlement>
+									<country key="IT">Italy</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Fabrizio</forename><surname>Falchi</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="institution">ISTI-CNR</orgName>
+								<address>
+									<settlement>Pisa</settlement>
+									<country key="IT">Italy</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Claudio</forename><surname>Lucchese</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="institution">ISTI-CNR</orgName>
+								<address>
+									<settlement>Pisa</settlement>
+									<country key="IT">Italy</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Yosi</forename><surname>Mass</surname></persName>
+							<affiliation key="aff1">
+								<orgName type="institution">IBM Haifa Research Lab</orgName>
+								<address>
+									<country key="IL">Israel</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Raffaele</forename><surname>Perego</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="institution">ISTI-CNR</orgName>
+								<address>
+									<settlement>Pisa</settlement>
+									<country key="IT">Italy</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Fausto</forename><surname>Rabitti</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="institution">ISTI-CNR</orgName>
+								<address>
+									<settlement>Pisa</settlement>
+									<country key="IT">Italy</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Michal</forename><surname>Shmueli-Scheuer</surname></persName>
+							<affiliation key="aff1">
+								<orgName type="institution">IBM Haifa Research Lab</orgName>
+								<address>
+									<country key="IL">Israel</country>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Searching 100M Images by Content Similarity</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+					<idno type="MD5">425DAA7FAD55EC1D2C2273A102E1065D</idno>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.8.0" ident="GROBID" when="2024-02-06T09:05+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<abstract>
+				<p>In this paper we present the web user interface of a scalable and distributed system for image retrieval based on visual features and annotated text, developed in the context of the SAPIR project. Its architecture makes use of Peer-to-Peer networks to achieve scalability and efficiency allowing the management of huge amount of data and simultaneous access by a large number of users. Describing the SAPIR web user interface we want to encourage final users to use SAPIR to search by content similarity, together with the usual text search, on a large image collection (100 million images crawled from Flickr) with realistic response time. On the ground of the statistics collected, it will be possible, for the first time, to study the user behavior (e.g., the way they combine text and image content search) in this new realistic environment.</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+	</text>
+</TEI>

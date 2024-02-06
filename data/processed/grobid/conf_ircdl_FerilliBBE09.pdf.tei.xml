@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Automatic Document Layout Analysis through Relational Machine Learning</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher>Springer Berlin Heidelberg</publisher>
+				<availability status="unknown"><p>Copyright Springer Berlin Heidelberg</p>
+				</availability>
+				<date type="published" when="2011">2011</date>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName><forename type="first">Stefano</forename><surname>Ferilli</surname></persName>
+							<email>ferilli@di.uniba.it</email>
+							<affiliation key="aff0">
+								<orgName type="department">Dipartimento di Informatica</orgName>
+								<orgName type="institution">Università di Bari</orgName>
+								<address>
+									<addrLine>via E. Orabona 4</addrLine>
+									<postCode>70126</postCode>
+									<settlement>Bari</settlement>
+									<country key="IT">Italy</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Teresa</forename><forename type="middle">M A</forename><surname>Basile</surname></persName>
+							<email>basile@di.uniba.it</email>
+							<affiliation key="aff0">
+								<orgName type="department">Dipartimento di Informatica</orgName>
+								<orgName type="institution">Università di Bari</orgName>
+								<address>
+									<addrLine>via E. Orabona 4</addrLine>
+									<postCode>70126</postCode>
+									<settlement>Bari</settlement>
+									<country key="IT">Italy</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Nicola</forename><surname>Di Mauro</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">Floriana</forename><surname>Esposito</surname></persName>
+							<email>esposito@di.uniba.it</email>
+							<affiliation key="aff0">
+								<orgName type="department">Dipartimento di Informatica</orgName>
+								<orgName type="institution">Università di Bari</orgName>
+								<address>
+									<addrLine>via E. Orabona 4</addrLine>
+									<postCode>70126</postCode>
+									<settlement>Bari</settlement>
+									<country key="IT">Italy</country>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Automatic Document Layout Analysis through Relational Machine Learning</title>
+					</analytic>
+					<monogr>
+						<title level="m">Learning Structure and Schemas from Documents</title>
+						<idno type="ISSN">1860-949X</idno>
+						<idno type="eISSN">1860-9503</idno>
+						<imprint>
+							<publisher>Springer Berlin Heidelberg</publisher>
+							<biblScope unit="page" from="73" to="96"/>
+							<date type="published" when="2011"/>
+						</imprint>
+					</monogr>
+					<idno type="MD5">A07BBC277D089CD3F13A5EDC4622EA9B</idno>
+					<idno type="DOI">10.1007/978-3-642-22913-8_4</idno>
+					<idno type="ark">ark:/67375/HCB-H8R6DPGQ-P</idno>
+					<idno type="istexId">223EF9FE124B05C8DF94CE27FDDC4A31C498009D</idno>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.8.0" ident="GROBID" when="2024-02-06T09:06+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<textClass>
+				<keywords>
+					<term>Lexical taxonomies</term>
+					<term>Text Categorization</term>
+					<term>Keyword Extraction</term>
+				</keywords>
+			</textClass>
+			<abstract>
+				<p>The large availability of documents in digital format posed the problem of efficient and effective retrieval mechanisms. This involves the ability to process natural language, which is a significantly complex task. Traditional algorithms based on term matching between the document and the query, although efficient, are not able to catch the intended meaning of both, and hence cannot ensure effectiveness. To step on toward semantics, problems such as polysemy and synonimy must be tackled automatically by text processing systems. This work aims at introducing in the document processing framework of DOMINUS qualitative techniques based on the lexical taxonomy WordNet and its extension WordNet Domains for text categorization and keyword extraction, that can support the currently embedded techniques based on quantitative approaches. In particular, a density function is exploited to assign the proper importance to the involved concepts and domains. Preliminary results on texts of different subjects confirm its effectiveness.</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+	</text>
+</TEI>

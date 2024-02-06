@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">A Hybrid Strategy for Italian Word Sense Disambiguation</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName><forename type="first">Pierpaolo</forename><surname>Basile</surname></persName>
+							<email>basilepp@di.uniba.it</email>
+							<affiliation key="aff0">
+								<orgName type="department">Department of Computer Science</orgName>
+								<orgName type="institution">University of Bari "Aldo Moro"</orgName>
+								<address>
+									<addrLine>Via E. Orabona</addrLine>
+									<postCode>4 -70126</postCode>
+									<settlement>Bari</settlement>
+									<country key="IT">Italy</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Marco</forename><surname>De Gemmis</surname></persName>
+							<email>degemmis@di.uniba.it</email>
+							<affiliation key="aff0">
+								<orgName type="department">Department of Computer Science</orgName>
+								<orgName type="institution">University of Bari "Aldo Moro"</orgName>
+								<address>
+									<addrLine>Via E. Orabona</addrLine>
+									<postCode>4 -70126</postCode>
+									<settlement>Bari</settlement>
+									<country key="IT">Italy</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Pasquale</forename><surname>Lops</surname></persName>
+							<email>lops@di.uniba.it</email>
+							<affiliation key="aff0">
+								<orgName type="department">Department of Computer Science</orgName>
+								<orgName type="institution">University of Bari "Aldo Moro"</orgName>
+								<address>
+									<addrLine>Via E. Orabona</addrLine>
+									<postCode>4 -70126</postCode>
+									<settlement>Bari</settlement>
+									<country key="IT">Italy</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Giovanni</forename><surname>Semeraro</surname></persName>
+							<email>semeraro@di.uniba.it</email>
+							<affiliation key="aff0">
+								<orgName type="department">Department of Computer Science</orgName>
+								<orgName type="institution">University of Bari "Aldo Moro"</orgName>
+								<address>
+									<addrLine>Via E. Orabona</addrLine>
+									<postCode>4 -70126</postCode>
+									<settlement>Bari</settlement>
+									<country key="IT">Italy</country>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">A Hybrid Strategy for Italian Word Sense Disambiguation</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+					<idno type="MD5">C5549A8CD229FD09AFFF59FEDBF6B154</idno>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.8.0" ident="GROBID" when="2024-02-06T08:58+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<abstract>
+				<p>Word Sense Disambiguation (WSD) is the problem of selecting a sense for a word from a set of predefined possibilities. Currently, there are two main methodological streams in this area: knowledgebased and corpus-based methods. Knowledge-based methods use external knowledge sources (e.g. Machine Readable Dictionaries or Thesauri) for assigning the correct sense to a word in a text. Corpus-based methods exploit machine learning techniques to induce models of word usage from large text collections. This paper presents a WSD strategy which combines a knowledge-based method that exploits sense definitions in a dictionary and relations among senses in a semantic network, with supervised learning methods on annotated corpora. The idea behind the proposed approach is that the knowledge-based method can cope with the possible lack of training data, while supervised learning can improve the precision of a knowledge-based method when training data are available. In order to evaluate the effectiveness of the proposed approach, experimental sessions were carried out on the dataset used for the WSD task in the EVALITA 2007 initiative, devoted to the evaluation of Natural Language Processing tools for Italian. The general conclusion of the experimental session is that the most effective hybrid WSD strategy is the one that integrates the knowledge-based approach into the supervised learning method, which outperforms both methods taken singularly.</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+	</text>
+</TEI>
